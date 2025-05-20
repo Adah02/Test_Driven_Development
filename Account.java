@@ -23,6 +23,4 @@ public void withdraw(double amount){
 	this.balance = balance - amount;
 }
 
-
-
 }

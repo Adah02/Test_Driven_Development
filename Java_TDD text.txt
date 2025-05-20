@@ -1,0 +1,20 @@
+javac -cp .\junit-platform-console-standalone-1.9.2.jar RangeArrayTest.java RangeArray.java
+
+java -jar .\junit-platform-console-standalone-1.9.2.jar --class-path . --scan-classpath --include-classname RangeArrayTest 
+
+
+private Account[] accounts = {new Account("John", 82362632773, 5000.00), new Account("James", 83487789286, 50000.00), new Account("Bolaji", 6662727372, 8000.00)};
+
+@BeforeEach
+public void setup(){
+atm.setAccounts(accounts);
+
+}
+@Test
+public void testCanWithdrawFunds(){
+
+
+}
+
+# In using array for account, it copies the files of customers into a new array of different size when the initial if full, and destroys the old one.
+  An array has a fixed size. As such, your condition determines such actions(i.e. account manipulations and handling).
