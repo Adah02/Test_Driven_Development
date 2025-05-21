@@ -18,3 +18,5 @@ public void testCanWithdrawFunds(){
 
 # In using array for account, it copies the files of customers into a new array of different size when the initial if full, and destroys the old one.
   An array has a fixed size. As such, your condition determines such actions(i.e. account manipulations and handling).
+
+# Try and catch is to handle error exeptions.e.g. Number format exeption.
