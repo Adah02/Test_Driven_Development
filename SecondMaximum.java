@@ -18,7 +18,7 @@ public class SecondMaximum {
 	integers[i] = userInput;
 	}
 */
-	int[] integers = {9,6,8,11,12};
+	int[] integers = {9,6,8,14,13};
 	quiz.secondMin(integers);
 	}
 }

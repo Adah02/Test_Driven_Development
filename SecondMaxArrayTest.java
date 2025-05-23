@@ -8,7 +8,7 @@ public class SecondMaxArrayTest {
 
 	SecondMaxArray quiz = new SecondMaxArray();
 
-	int[] numbers = {6,8,11,12,14};
+	int[] numbers = {6,8,11,13,12};
 	
 	int check = quiz.secondMin(numbers);
 
