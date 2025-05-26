@@ -6,11 +6,11 @@ public class AscendingNumbers{
 	int[] ascending = new int[array.length];
 
 	final int MAX_VALUE = 2147483647;
-	for(int i = 0; i < MAX_VALUE; i++){
+	for(int index = 0; index < MAX_VALUE; index++){
 		for (int j = 0 ; j < array.length; j++){
-		if(i == array[j]){
-		ascending[j] = i;
-		System.out.print(i + " ");
+		if(index == array[j]){
+		ascending[j] = index;
+		System.out.print(index + " ");
 		}
 	}
 	}

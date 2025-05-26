@@ -1,6 +1,7 @@
 public class Account{
 
 	public static String setName(String name){
+
 		this.name = name;
 	}
 
