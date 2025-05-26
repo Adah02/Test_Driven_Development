@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class SumsOfNumbers{
+public class SumsOfMinMaxNumber{
 
 	public static int[] sumsIn(int array[]){
 	

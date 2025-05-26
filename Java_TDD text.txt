@@ -3,6 +3,10 @@ javac -cp .\junit-platform-console-standalone-1.9.2.jar RangeArrayTest.java Rang
 java -jar .\junit-platform-console-standalone-1.9.2.jar --class-path . --scan-classpath --include-classname RangeArrayTest 
 
 
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+
+
 private Account[] accounts = {new Account("John", 82362632773, 5000.00), new Account("James", 83487789286, 50000.00), new Account("Bolaji", 6662727372, 8000.00)};
 
 @BeforeEach
