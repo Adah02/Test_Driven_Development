@@ -15,7 +15,6 @@ public class LargestElements {
 			}
 		}
 	}
-	//System.out.print(Arrays.toString(table));
 	return table;
 	}
 
