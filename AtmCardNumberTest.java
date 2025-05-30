@@ -8,9 +8,9 @@ public class AtmCardNumberTest{
 	@Test
 	public void cardNumberCheckForAtmCards(){
 
-	int[] check = {6,5,6,7,4,6,4,3,3,5,6,5,7,4,6,8};
+	int[] check = {3,5,6,7,4,6,4,3,3,5,6,5,7,4,6};
 
-	String expected = "Mastercard";
+	String expected = "American Express";
 
 	assertEquals(expected, quiz.cardNumberIn(check));
 	}
